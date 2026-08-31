@@ -1,0 +1,14 @@
+#pragma once
+
+#define VEHICULO_ID "CAMION1"
+#define GPS_RX_PIN 34
+#define GPS_TX_PIN 12
+#define GPS_BAUD 9600
+#define LORA_BAND 915E6
+#define INTERVALO_ENVIO_MS 1000
+
+// T3 V1.6.x: V_BAT → divisor R43/R42 (100K/100K) → GPIO35 (ADC).
+#define BAT_PIN 35
+#define BAT_DIVIDER 2.0f
+#define BAT_VOLT_MIN 3.3f
+#define BAT_VOLT_MAX 4.2f

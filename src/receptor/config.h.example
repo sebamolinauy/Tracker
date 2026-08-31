@@ -1,0 +1,6 @@
+#pragma once
+
+#define WIFI_SSID "tu-red"
+#define WIFI_PASSWORD "tu-clave"
+#define API_URL "http://192.168.1.42:3000/api/receptor/posicion"
+#define API_TOKEN "misma-clave-que-RECEPTOR_API_KEY"

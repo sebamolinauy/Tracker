@@ -1,0 +1,7 @@
+distribution/
+node_modules/
+variables/
+data/
+.DS_Store
+src/receptor/config.h
+src/emisor/config.h

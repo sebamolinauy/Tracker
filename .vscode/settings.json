@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        "node_modules/": true,
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+    ],
+}
